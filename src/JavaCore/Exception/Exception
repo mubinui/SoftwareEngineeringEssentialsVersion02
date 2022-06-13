@@ -1,0 +1,17 @@
+1. Exception handles runtime errors/compile time errors.
+
+                                       Object
+                                          .
+                                          .
+                                          .
+                                          .
+                                          .
+                                          .
+                                       Throwable
+                                           .
+                                           .
+                     . . . . . . . . .  . . . . . . . . . . . .
+                     .                                        .
+                  Exceptions                                Errors
+                  1. Checked Exceptions                      1. Virtual Machine Errors
+                  2. Unchecked Exceptions                    2. Assertion Errors
