@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="277546fc-00d7-487a-a7a5-88ab09af9a1c" name="Changes" comment="Collection Framework">
-      <change afterPath="$PROJECT_DIR$/src/JavaCore/Exception/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaCore/Exception/Exception" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaCore/Exception/ExceptionHandling01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaCore/Exception/InvalidInputException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaCore/Exception/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaCore/Exception/ParsingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaCore/Exception/ThrowException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaCore/Exception/UserException01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaCore/FinalFinallyFinalize/FinallyFinalize.java" afterDir="false" />
+    <list default="true" id="277546fc-00d7-487a-a7a5-88ab09af9a1c" name="Changes" comment="Exception Handling">
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Searching/LinearSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Sorting/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Sorting/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,25 +34,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="JavaCore.Exception" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CustomException">
-    <configuration name="CollectionMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionFramework.CollectionMap" />
+  <component name="RunManager" selected="Application.LinearSearch">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Sorting.BubbleSort" />
       <module name="SoftwareEngineeringEssentialsVersion02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CollectionFramework.*" />
+          <option name="PATTERN" value="Algorithms.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionHandling01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaCore.Exception.ExceptionHandling01" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Sorting.InsertionSort" />
       <module name="SoftwareEngineeringEssentialsVersion02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaCore.Exception.*" />
+          <option name="PATTERN" value="Algorithms.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaCore.Exception.ThrowException" />
+    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Searching.LinearSearch" />
       <module name="SoftwareEngineeringEssentialsVersion02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaCore.Exception.*" />
+          <option name="PATTERN" value="Algorithms.Searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserException01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaCore.Exception.UserException01" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Sorting.SelectionSort" />
       <module name="SoftwareEngineeringEssentialsVersion02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaCore.Exception.*" />
+          <option name="PATTERN" value="Algorithms.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinearSearch" />
+        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.CustomException" />
-        <item itemvalue="Application.UserException01" />
-        <item itemvalue="Application.ThrowException" />
-        <item itemvalue="Application.ExceptionHandling01" />
-        <item itemvalue="Application.CollectionMap" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +134,17 @@
       <workItem from="1655016679114" duration="2226000" />
       <workItem from="1655030918237" duration="7309000" />
       <workItem from="1655052602952" duration="6243000" />
+      <workItem from="1655101998322" duration="978000" />
+      <workItem from="1655110209705" duration="7282000" />
     </task>
+    <task id="LOCAL-00001" summary="Exception Handling">
+      <created>1655102027768</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655102027768</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,5 +160,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exception Handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception Handling" />
   </component>
 </project>
