@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="277546fc-00d7-487a-a7a5-88ab09af9a1c" name="Changes" comment="Exception Handling">
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Searching/LinearSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Sorting/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Sorting/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/Sorting/SelectionSort.java" afterDir="false" />
+    <list default="true" id="277546fc-00d7-487a-a7a5-88ab09af9a1c" name="Changes" comment="Searching and Sorting">
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/Sorting/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,26 +44,13 @@
       <recent name="JavaCore.Exception" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinearSearch">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithms.Sorting.BubbleSort" />
       <module name="SoftwareEngineeringEssentialsVersion02" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Algorithms.Sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaCore.Exception.CustomException" />
-      <module name="SoftwareEngineeringEssentialsVersion02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaCore.Exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,6 +84,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Sorting.MergeSort" />
+      <module name="SoftwareEngineeringEssentialsVersion02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithms.Sorting.SelectionSort" />
       <module name="SoftwareEngineeringEssentialsVersion02" />
@@ -115,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.LinearSearch" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.CustomException" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +132,7 @@
       <workItem from="1655030918237" duration="7309000" />
       <workItem from="1655052602952" duration="6243000" />
       <workItem from="1655101998322" duration="978000" />
-      <workItem from="1655110209705" duration="7282000" />
+      <workItem from="1655110209705" duration="12046000" />
     </task>
     <task id="LOCAL-00001" summary="Exception Handling">
       <created>1655102027768</created>
@@ -144,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655102027768</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Searching and Sorting">
+      <created>1655122280046</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655122280046</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +167,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exception Handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception Handling" />
+    <MESSAGE value="Searching and Sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Searching and Sorting" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithms/Sorting/MergeSort.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
