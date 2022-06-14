@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="277546fc-00d7-487a-a7a5-88ab09af9a1c" name="Changes" comment="Searching and Sorting">
-      <change afterPath="$PROJECT_DIR$/src/JavaCore/Threading/Thread01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaCore/Threading/ThreadInterfaceImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaCore/Threading/ThreadTester.java" afterDir="false" />
+    <list default="true" id="277546fc-00d7-487a-a7a5-88ab09af9a1c" name="Changes" comment="Threading">
+      <change afterPath="$PROJECT_DIR$/src/JavaCore/TypeCasting/Casting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaCore/TypeCasting/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaCore/TypeCasting/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,20 @@
       <recent name="JavaCore.Exception" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadTester">
+  <component name="RunManager" selected="Application.Casting">
+    <configuration name="Casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaCore.TypeCasting.Casting" />
+      <module name="SoftwareEngineeringEssentialsVersion02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaCore.TypeCasting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithms.Sorting.InsertionSort" />
       <module name="SoftwareEngineeringEssentialsVersion02" />
@@ -86,19 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Sorting.SelectionSort" />
-      <module name="SoftwareEngineeringEssentialsVersion02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algorithms.Sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ThreadTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaCore.Threading.ThreadTester" />
       <module name="SoftwareEngineeringEssentialsVersion02" />
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Casting" />
         <item itemvalue="Application.ThreadTester" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.LinearSearch" />
         <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +135,7 @@
       <workItem from="1655052602952" duration="6243000" />
       <workItem from="1655101998322" duration="978000" />
       <workItem from="1655110209705" duration="12046000" />
-      <workItem from="1655169386382" duration="1144000" />
+      <workItem from="1655169386382" duration="2948000" />
     </task>
     <task id="LOCAL-00001" summary="Exception Handling">
       <created>1655102027768</created>
@@ -158,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655169400595</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Threading">
+      <created>1655170697803</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655170697803</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +185,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exception Handling" />
     <MESSAGE value="Searching and Sorting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Searching and Sorting" />
+    <MESSAGE value="Threading" />
+    <option name="LAST_COMMIT_MESSAGE" value="Threading" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
